@@ -9,6 +9,16 @@ Simple script is a javascript micro framework based on components, inspired by t
 |--------------------|----------|--------------|
 | **2K**                 | 7K       | 22K          |
 
+## Installation
+
+````
+npm i @simple-script/simple-script
+````
+
+````HTML
+<script src="https://cdn.jsdelivr.net/npm/@simple-script/simple-script@0.1.0/dist/simple-script.min.js" async></script>
+````
+
 ## Compatibility
 - STILL TESTING
 - Should work in all modern browsers IE 9 +
