@@ -1,0 +1,39 @@
+/*
+ * This file is part of the Simple Script framework package.
+ *
+ * (c) Vladimír Macháček <8machy@gmail.com>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
+
+
+defineProperty(prototypesSet.element, 'attr', attr);
+
+
+/**
+ * @preserve
+ * @alias Element.prototype.attr
+ * @alias NodeList.prototype.attr
+ * @param {Object|string} name
+ * @param {string} [value]
+ * @returns {{value: *, type: string}}
+ */
+function attr(name, value)
+{
+	var element = this;
+
+	if (isObject(name)) {
+		name.each(function (attribute, value) {
+			element.attr(attribute, value);
+		});
+
+	} else if ( ! value) {
+		return immediateStatement(element.getAttribute(name));
+
+	} else {
+		element.setAttribute(name, value);
+	}
+
+	return originalStatement(element);
+}
