@@ -4,24 +4,24 @@ Simple script is a javascript micro framework based on components, inspired by t
 ## Compatibility
 - STILL TESTING
 - Should work in all modern browsers IE 9 +
-- Opera Mini is doesn't fully support 'on' method with selector parameter
+- 'on' method does't work in Opera Mini when using the selector parameter
 
 ## Examples
 **AddClass**
-Adds the specified class to all matched elements
+- Adds the specified class to all matched elements
 ````JS
-document.find('div').addClass('first second third);
+document.find('div').addClass('first second third');
 ````
 
 **After**
-Insert content after all matched elements
+- Insert content after all matched elements
 ````JS
 document.find('div').after('Hello World!'); // Text
 document.find('div').after(document.createElement('div').outerHTML); // Element
 ````
 
 **Append**
-Insert content to the end of all matched elements
+- Insert content to the end of all matched elements
 ````JS
 document.find('h1.hello-world').append(document.createTextNode(' World!')); // Text node
 document.find('h1.hello-world').append(document.createElement('div')); // Element
@@ -38,14 +38,14 @@ document.find('input').attr({
 ````
 
 **Before**
-Insert content before all matched elements
+- Insert content before all matched elements
 ````JS
 document.find('div').before('Hello World!'); // Text
 document.find('div').before(document.createElement('div').outerHTML); // Element
 ````
 
 **Children**
-Returns a list of child nodes of the first matched element
+- Returns a list of child nodes of the first matched element
 ````JS
 document.find('div').children();
 ````
@@ -85,11 +85,11 @@ document.find('div').each(function (index, iterator) {
 });
 
 ['First', 'Second'].each(function (index, value, iterator) {
-    ...
+    // ...
 });
 
-{first: '1th value', second: '2th value}.each(function (index, value, iterator) {
-    ...
+{first: '1th value', second: '2th value'}.each(function (index, value, iterator) {
+   // ...
 });
 ````
 
@@ -99,21 +99,21 @@ document.find('button').eq(0); // Returns an element with specified index from N
 ````
 
 **Find**
-Works exactly the same as document.querySelectorAll but returns Element if there is only one node found
+- Works exactly the same as document.querySelectorAll but returns Element if there is only one node found
 ````JS
 document.find('button');
 ````
 
 **First**
-Returns first item fron NodeList, Array and Object
+- Returns first item fron NodeList, Array and Object
 ````JS
 document.find('button').first();
 ['First', 'Second'].first();
-{first: '1th value', second: '2th value}.first();
+{first: '1th value', second: '2th value'}.first();
 ````
 
 **HasClass**
-Returns true if the first matched element has selected class
+- Returns true if the first matched element has selected class
 ````JS
 document.find('div').hasClass('someclass');
 ````
@@ -148,21 +148,21 @@ document.find('div.first').is('.first'); // Returns boolean if element matches s
 ````
 
 **Last**
-Returns last item from NodeList, Array or Object
+- Returns last item from NodeList, Array or Object
 ````JS
 document.find('button').last();
 ['First', 'Second'].last();
-{first: '1th value', second: '2th value}.first();
+{first: '1th value', second: '2th value'}.first();
 ````
 
 **Next**
-Returns the next element after the first matched element
+- Returns the next element after the first matched element
 ````JS
 document.find('div').next();
 ````
 
 **Off**
-Removes event listener from all matched elements. Is required to use named event handler.
+- Removes event listener from all matched elements. Is required to use named event handler.
 ````JS
 function someHandler() {...}
 
@@ -170,13 +170,13 @@ document.find('button').off('click', someHandler);
 ````
 
 **Offset**
-Returns ClientRect object of the first matched element
+- Returns ClientRect object of the first matched element
 ````JS
 document.find('button').offset();
 ````
 
 **On**
-Attaches an event listener to all matched elements
+- Attaches an event listener to all matched elements
 ````JS
 function someHandler() {...}
 
@@ -185,34 +185,34 @@ document.body.on('click', 'button', someHandler); // This works after ajax and o
 ````
 
 **OuterHeight**
-Returns outer height of the first matched element (with padding and border)
+- Returns outer height of the first matched element (with padding and border)
 ````JS
 document.find('div').outerHeight();
 document.find('div').outerHeight(true); // This will include margin
 ````
 
 **OuterWidth**
-Returns outer width of the first matched element (with padding and border)
+- Returns outer width of the first matched element (with padding and border)
 ````JS
 document.find('div').outerWidth();
 document.find('div').outerWidth(true); // This will include margin
 ````
 
 **Parent**
-Returns first parent of the first matched element
+- Returns first parent of the first matched element
 ````JS
 document.find('div').parent();
 ````
 
 **Prepend**
-Insert content to the beginning of all matched elements
+- Insert content to the beginning of all matched elements
 ````JS
 document.find('h1.hello-world').prepend(document.createTextNode('Hello')); // Text node
 document.find('h1.hello-world').prepend(document.createElement('div')); // Element
 ````
 
 **Prev**
-Returns the previous element before the first matched element
+- Returns the previous element before the first matched element
 ````JS
 document.find('div').prev();
 ````
@@ -231,31 +231,31 @@ document.find('input').prop(draggable); // Allows you to create plugins and atta
 ````
 
 **Ready**
-Executes callback when DOM is ready
+- Executes callback when DOM is ready
 ````JS
 document.ready(function () {...});
 ````
 
 **Remove**
-Removes all matched elements
+- Removes all matched elements
 ````JS
 document.find('div').remove();
 ````
 
 **RemoveAttr**
-Removes selected attribute from all matched elements
+- Removes selected attribute from all matched elements
 ````JS
 document.find('div').removeAttr('class id');
 ````
 
 **RemoveClass**
-Removes selected class from all matched elements
+- Removes selected class from all matched elements
 ````JS
 document.find('div').removeClass('first second');
 ````
 
 **RemoveData**
-Removes selected data attribute from all matched elements
+- Removes selected data attribute from all matched elements
 ````JS
 document.find('div').removeData('first second');
 ````
@@ -267,7 +267,7 @@ document.find('div').text('Hello World!'); // Sets text to all matched elements
 ````
 
 **ToggleClass**
-Adds or removes class from all matched elements
+- Adds or removes class from all matched elements
 ````JS
 document.find('div').toggleClass('first second');
 ````
@@ -285,13 +285,13 @@ document.find('input').width('100px'); // Sets width to all matched elements
 ````
 
 **Wrap**
-Wraps an HTML structure around all matched elements
+- Wraps an HTML structure around all matched elements
 ````JS
-document.find('input').wrap(document.createElement('div').addClass('wrapper').outerHTML');
+document.find('input').wrap(document.createElement('div').addClass('wrapper').outerHTML);
 ````
 
 **Wrap inner**
-Wraps an HTML structure around the content of all matched elements
+- Wraps an HTML structure around the content of all matched elements
 ````JS
-document.find('div').wrapInner(document.createElement('div').addClass('inner').outerHTML');
+document.find('div').wrapInner(document.createElement('div').addClass('inner').outerHTML);
 ````
