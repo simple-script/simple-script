@@ -1,4 +1,4 @@
-/*! Simple Script framework | BSD-3-Clause | https://github.com/Machy8/Grid */
+/*! Simple Script framework | BSD-3-Clause | https://github.com/simple-script/simple-script */
 
 (function () {
 
