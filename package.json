@@ -1,27 +1,37 @@
 {
-    "name": "simple-script-framework",
-    "description": "The Simple Script Framework",
-    "keywords": [
-        "web",
-        "simplicity",
-        "js"
-    ],
-    "version": "0.1.0",
-    "license": "BSD-3-Clause",
-    "style": "dist/simple-script.js",
-    "scripts": {
-        "eslint": "gulp checkCodingStandard",
-        "compile": "gulp compile"
-    },
-    "author": {
-        "name": "Vladimír Macháček",
-        "email": "8machy@seznam.cz"
-    },
-    "devDependencies": {
-        "gulp": "^3.9.1",
-        "gulp-eslint": "^4.0.1",
-        "js-beautify": "^1.7.5",
-        "qunit": "^2.5.0",
-        "uglify-js": "^3.3.7"
-    }
+	"name": "@simple-script/simple-script-framework",
+	"description": "The Simple Script Framework",
+	"keywords": [
+		"web",
+		"simplicity",
+		"js"
+	],
+	"version": "0.1.0",
+	"license": "BSD-3-Clause",
+	"script": "dist/simple-script.js",
+	"scripts": {
+		"eslint": "gulp checkCodingStandard",
+		"compile": "gulp compile"
+	},
+	"author": "Vladimír Macháček <8machy@gmail.cz>",
+	"devDependencies": {
+		"gulp": "^3.9.1",
+		"gulp-eslint": "^4.0.1",
+		"js-beautify": "^1.7.5",
+		"qunit": "^2.5.0",
+		"uglify-js": "^3.3.7"
+	},
+	"main": "gulpfile.js",
+	"directories": {
+		"test": "tests"
+	},
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/simple-script/simple-script.git"
+	},
+	"bugs": {
+		"url": "https://github.com/simple-script/simple-script/issues"
+	},
+	"homepage": "https://github.com/simple-script/simple-script#readme"
 }
