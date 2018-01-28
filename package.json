@@ -1,0 +1,27 @@
+{
+    "name": "simple-script-framework",
+    "description": "The Simple Script Framework",
+    "keywords": [
+        "web",
+        "simplicity",
+        "js"
+    ],
+    "version": "0.1.0",
+    "license": "BSD-3-Clause",
+    "style": "dist/simple-script.js",
+    "scripts": {
+        "eslint": "gulp checkCodingStandard",
+        "compile": "gulp compile"
+    },
+    "author": {
+        "name": "Vladimír Macháček",
+        "email": "8machy@seznam.cz"
+    },
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-eslint": "^4.0.1",
+        "js-beautify": "^1.7.5",
+        "qunit": "^2.5.0",
+        "uglify-js": "^3.3.7"
+    }
+}
