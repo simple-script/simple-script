@@ -1,0 +1,12 @@
+tests/
+src/
+.gitattributes
+.gitignore
+.eslintrc.yml
+.travis.yml
+gulpfile.js
+index.html
+package-lock.json
+docker-compose.yml
+.idea/
+npm-debug.log
