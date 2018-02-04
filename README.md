@@ -2,7 +2,7 @@
 [![license](https://img.shields.io/github/license/simple-script/simple-script.svg)]()
 [![Github file size](https://img.shields.io/github/size/simple-script/simple-script/dist/simple-script.min.js.svg)]()
 
-# Simple Script
+# Simple Script ([TRY IT ON CODEPEN](https://codepen.io/Machy8/pen/OQNxPE?editors=1010#0))
 Simple script is a javascript micro framework based on components, inspired by the great jQuery library.
 
 | Minified & Gzipped | Minified | Uncompressed |
@@ -10,7 +10,6 @@ Simple script is a javascript micro framework based on components, inspired by t
 | **2K**                 | 7K       | 22K          |
 
 ## Installation
-
 ````
 npm i @simple-script/simple-script
 ````
