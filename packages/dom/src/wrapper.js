@@ -1,4 +1,5 @@
-/*! Simple Script framework | BSD-3-Clause | https://github.com/simple-script/simple-script */
+/* eslint-disable spaced-comment */
+/*! Copyright (c) Vladimír Macháček | BSD-3-Clause | https://github.com/simple-script/simple-script */
 
 (function () {
 
