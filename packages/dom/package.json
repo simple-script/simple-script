@@ -1,0 +1,18 @@
+{
+	"name": "@simple-script/dom",
+	"description": "The Simple Script Framework",
+	"keywords": ["web", "simplicity", "js"],
+	"version": "0.1.0",
+	"license": "BSD-3-Clause",
+	"script": "dist/simple-script.js",
+	"author": "Vladimír Macháček <8machy@gmail.cz>",
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/simple-script/simple-script.git"
+	},
+	"bugs": {
+		"url": "https://github.com/simple-script/simple-script/issues"
+	},
+	"homepage": "https://github.com/simple-script/simple-script#readme"
+}
