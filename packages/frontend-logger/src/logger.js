@@ -2,7 +2,7 @@
 
 (function () {
 
-	var	logs = {};
+	var logs = {};
 
 
 	function addLog(module, data) {
