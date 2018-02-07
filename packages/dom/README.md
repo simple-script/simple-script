@@ -9,6 +9,11 @@ Simple script is a javascript micro framework based on components, inspired by t
 |--------------------|----------|--------------|
 | **2K**                 | 7K       | 22K          |
 
+## Installation
+````
+npm i @simple-script/dom
+````
+
 ## Compatibility
 - STILL TESTING
 - Should work in all modern browsers IE 9 +
