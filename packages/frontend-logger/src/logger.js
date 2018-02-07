@@ -2,12 +2,10 @@
 
 (function () {
 
-	var
-		postRequestUrl = null,
-		logs = {};
+	var	logs = {};
 
 
-	function addLog (module, data) {
+	function addLog(module, data) {
 		if (typeof module === 'undefined' || typeof data === 'undefined') {
 			return;
 		}
@@ -21,7 +19,7 @@
 	}
 
 
-	function getLog (module)
+	function getLog(module)
 	{
 		if (logs.hasOwnProperty(module)) {
 			return logs[module];
@@ -38,16 +36,16 @@
 		}
 
 		var
-			request = new XMLHttpRequest(),
 			data = new FormData(),
 			log = {
 				module: module,
 				data: logs[module]
-			};
+			},
+			request = new XMLHttpRequest();
 
 		delete logs[module];
 		data.append('frontendLogger', JSON.stringify(log));
-		request.open("POST", url, true);
+		request.open('POST', url, true);
 		request.send(data);
 	}
 
