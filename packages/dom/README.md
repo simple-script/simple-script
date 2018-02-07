@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.org/simple-script/simple-script.svg?branch=master)](https://travis-ci.org/simple-script/simple-script)
 [![license](https://img.shields.io/github/license/simple-script/simple-script.svg)]()
-[![Github file size](https://img.shields.io/github/size/simple-script/simple-script/dist/simple-script.min.js.svg)]()
+[![Github file size](https://img.shields.io/github/size/simple-script/simple-script/packages/dom/dist/dom.min.js.svg)]()
 
 # Simple Script
 Simple script is a javascript micro framework based on components, inspired by the great jQuery library.
