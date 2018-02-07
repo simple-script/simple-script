@@ -2,9 +2,7 @@
 
 (function() {
 
-	var
-		postRequestUrl = null,
-		logs = {};
+	var logs = {};
 
 
 	function addLog(module, data) {
