@@ -1,7 +1,7 @@
 {
 	"name": "@simple-script/dom",
 	"description": "The Simple Script Framework",
-	"keywords": ["web", "simplicity", "js"],
+	"keywords": ["web", "simplicity", "js", "framework"],
 	"version": "0.1.0",
 	"license": "BSD-3-Clause",
 	"script": "dist/simple-script.js",
