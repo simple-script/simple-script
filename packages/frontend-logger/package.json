@@ -1,12 +1,11 @@
 {
 	"name": "@simple-script/frontend-logger",
 	"description": "Simple, scalable frontend logger. Log javascript errors or map events in a simple way.",
-	"keywords": ["web", "simplicity", "js"],
+	"keywords": ["web", "simplicity", "js", "frontend", "errors", "logger"],
 	"version": "0.1.0",
 	"license": "BSD-3-Clause",
 	"script": "dist/logger.js",
 	"author": "Vladimír Macháček <8machy@gmail.cz>",
-	"dependencies": {},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/simple-script/simple-script.git"
