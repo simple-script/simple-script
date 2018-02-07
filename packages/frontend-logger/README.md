@@ -1,7 +1,7 @@
 [![license](https://img.shields.io/github/license/simple-script/simple-script.svg)]()
 
-# Simple Script
-Frontend logger allows you to add logs and send them to your server where they are processed by some script and logged into the file, database etc.
+# Frontend Logger
+Frontend logger allows you to add logs and send them to your server where they are processed (for example saved into the file).
 
 ## Usage
 Install
